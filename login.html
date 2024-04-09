@@ -1,0 +1,78 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>登入</title>
+  <style>
+    body {
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .介面 {
+      width: 490px;
+      background-color: #fff;
+      padding: 60px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+    input[type="text"],
+    input[type="password"] {
+      width: 85%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: none;
+      border-bottom: 2px solid rgb(200, 199, 199);
+      outline: none;
+      font-size: 15px;
+    }
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+      border-bottom-color: #97CBFF;
+    }
+    input[type="submit"] {
+      background-color: #4A4AFF;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      width: 85%;
+    }
+    input[type="submit"]:hover {
+      background-color: #0000E3;
+    }
+    input[type="submit"].建立帳號按鈕 {
+      background-color: #4CAF50;
+      width: 40%;
+    }
+    input[type="submit"].建立帳號按鈕:hover {
+      background-color: #45a049;
+    }
+    </style>
+</head>
+<body>
+  <div class="介面">
+    <h2>登入</h2>
+    <form action="login.php" method="post">
+      <label for="cid"></label></br>
+      <input type="text" name="cid2" placeholder="帳號"/>
+      <label for="pwd"></label></br>
+      <input type="password" name="pwd2" placeholder="密碼"/></br>
+      <input type="submit" value="登入"/>
+    </form> 
+    <form action="sign.html"></br></br>
+      <input type="submit" value="建立帳號" class="建立帳號按鈕">
+    </form> 
+</div>
+</body>
+</html>
